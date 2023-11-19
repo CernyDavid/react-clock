@@ -6,7 +6,7 @@ function App() {
   const [run, setRun] = useState<boolean>(true);
 
   useEffect(() => {
-    let timer : number = 0;
+    let timer : number;
 
     if (run) {
       timer = setInterval(() => {
